@@ -1,34 +1,40 @@
-This package was debianized by Krzysztof Burghardt <krzysztof@burghardt.pl> on
-Sat, 17 Mar 2007 16:31:08 +0100.
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ClamFS
+Upstream-Contact: Krzysztof Burghardt <krzysztof@burghardt.pl>
+Source: https://github.com/burghardt/clamfs
 
-It was downloaded from http://clamfs.sourceforge.net/
+Files: *
+Copyright: 2007-2019 Krzysztof Burghardt
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
 
-Upstream Author:
+Files: src/utils.hxx
+Copyright: 2007-2019 Krzysztof Burghardt
+           2005-2007 Remi Flament
+License: GPL-2+
 
-    Krzysztof Burghardt <krzysztof@burghardt.pl>
+Files: src/clamfs.cxx
+Copyright: 2007-2019 Krzysztof Burghardt
+           2001-2006 Miklos Szeredi
 
-Copyright:
-
-    Copyright © 2007 Krzysztof Burghardt <krzysztof@burghardt.pl>
-
+Files: ax_boost_base.m4
+Copyright: 2008 Thomas Porschberg
 License:
-
-   This package is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2 of the License, or
-   (at your option) any later version.
-
-   This package is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this package; if not, write to the Free Software
-   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-
-On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL-2'.
-
-The Debian packaging is © 2007, Krzysztof Burghardt <krzysztof@burghardt.pl> and
-is licensed under the GPL, see above.
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved.
