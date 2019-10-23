@@ -1,9 +1,9 @@
 Source: clamfs
 Section: utils
 Priority: optional
-Maintainer: Debian QA Group <packages@qa.debian.org>
+Maintainer: Krzysztof Burghardt <krzysztof@burghardt.pl>
 Build-Depends: debhelper (>= 5), libfuse-dev, librlog-dev, libpoco-dev, libcommoncpp2-dev, libboost-dev
-Homepage: http://clamfs.sourceforge.net/
+Homepage: https://github.com/burghardt/clamfs
 Standards-Version: 3.9.8
 
 Package: clamfs
