@@ -6,6 +6,25 @@ Source: https://github.com/burghardt/clamfs
 Files: *
 Copyright: 2007-2019 Krzysztof Burghardt
 License: GPL-2+
+
+Files: src/utils.hxx
+Copyright: 2007-2019 Krzysztof Burghardt
+           2005-2007 Remi Flament
+License: GPL-2+
+
+Files: src/clamfs.cxx
+Copyright: 2007-2019 Krzysztof Burghardt
+           2001-2006 Miklos Szeredi
+License: GPL-2+
+
+Files: ax_boost_base.m4
+Copyright: 2008 Thomas Porschberg
+License: permissive
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved.
+
+License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
@@ -22,20 +41,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL-2'.
-
-Files: src/utils.hxx
-Copyright: 2007-2019 Krzysztof Burghardt
-           2005-2007 Remi Flament
-License: GPL-2+
-
-Files: src/clamfs.cxx
-Copyright: 2007-2019 Krzysztof Burghardt
-           2001-2006 Miklos Szeredi
-License: GPL-2+
-
-Files: ax_boost_base.m4
-Copyright: 2008 Thomas Porschberg
-License: other
- Copying and distribution of this file, with or without modification, are
- permitted in any medium without royalty provided the copyright notice
- and this notice are preserved.
