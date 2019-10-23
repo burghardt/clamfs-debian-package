@@ -31,10 +31,11 @@ License: GPL-2+
 Files: src/clamfs.cxx
 Copyright: 2007-2019 Krzysztof Burghardt
            2001-2006 Miklos Szeredi
+License: GPL-2+
 
 Files: ax_boost_base.m4
 Copyright: 2008 Thomas Porschberg
-License:
+License: other
  Copying and distribution of this file, with or without modification, are
  permitted in any medium without royalty provided the copyright notice
  and this notice are preserved.
