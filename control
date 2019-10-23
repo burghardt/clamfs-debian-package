@@ -2,9 +2,10 @@ Source: clamfs
 Section: utils
 Priority: optional
 Maintainer: Krzysztof Burghardt <krzysztof@burghardt.pl>
-Build-Depends: debhelper (>= 11), libfuse-dev, librlog-dev, libpoco-dev, libboost-dev
+Build-Depends: debhelper (>= 12), libfuse-dev, librlog-dev, libpoco-dev, libboost-dev
 Homepage: https://github.com/burghardt/clamfs
-Standards-Version: 4.3.0
+Standards-Version: 4.4.1
+Rules-Requires-Root: no
 
 Package: clamfs
 Architecture: any
