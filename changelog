@@ -3,10 +3,11 @@ clamfs (1.1.0-1) unstable; urgency=medium
   * New upstream version.
   * New maintainer.
   * Format set to 3.0 (quilt).
-  * Set debian/compat to 11.
+  * Set debian/compat to 12.
+  * Rewritten debian/copyright to be machine readable.
   * debian/control:
     - drop dependency on libcommoncpp2-dev
-    - bumped Standards-Version to 4.3.0
+    - bumped Standards-Version to 4.4.1
     - updated Homepage
   * debian/rules:
     - removed white spaces from line endings
@@ -17,7 +18,7 @@ clamfs (1.1.0-1) unstable; urgency=medium
     - switch to github
     - verify PGP signature
 
- -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Wed, 23 Oct 2019 19:38:20 +0200
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Wed, 23 Oct 2019 20:01:03 +0200
 
 clamfs (1.0.1-3) unstable; urgency=medium
 
