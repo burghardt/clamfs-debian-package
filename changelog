@@ -18,7 +18,7 @@ clamfs (1.1.0-1) unstable; urgency=medium
     - switch to github
     - verify PGP signature
 
- -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Wed, 23 Oct 2019 20:01:03 +0200
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Wed, 23 Oct 2019 20:15:00 +0200
 
 clamfs (1.0.1-3) unstable; urgency=medium
 
