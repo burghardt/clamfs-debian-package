@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Krzysztof Burghardt <krzysztof@burghardt.pl>
 Build-Depends: debhelper (>= 11), libfuse-dev, librlog-dev, libpoco-dev, libboost-dev
 Homepage: https://github.com/burghardt/clamfs
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 
 Package: clamfs
 Architecture: any

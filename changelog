@@ -1,7 +1,9 @@
 clamfs (1.1.0-1) UNRELEASED; urgency=medium
 
   * New upstream version
-  * Drop dependency on libcommoncpp2-dev
+  * debian/control:
+    - drop dependency on libcommoncpp2-dev
+    - bumped Standards-Version to 4.3.0
 
  -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Wed, 23 Oct 2019 16:01:04 +0200
 
