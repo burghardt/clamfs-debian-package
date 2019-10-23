@@ -1,0 +1,10 @@
+clamfs for Debian
+-----------------
+
+Sample configuration file is named clamfs-sample.xml.
+Copy it to /etc/clamfs.xml, /etc/clamfs/filesystem_name.xml
+or to ~/.clamfs.xml for user private configuration
+and do not forget to customize it.
+
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Sun, 29 Apr 2007 21:11:05 +0200
+

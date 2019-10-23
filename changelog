@@ -1,0 +1,69 @@
+clamfs (1.0.1-3) unstable; urgency=medium
+
+  * QA upload.
+  * Upload to unstable.
+
+ -- Adrian Bunk <bunk@debian.org>  Sun, 18 Jun 2017 16:45:34 +0300
+
+clamfs (1.0.1-2) experimental; urgency=medium
+
+  * QA upload.
+  * Set Debian QA Group as maintainer.
+  * debian/control: bumped Standards-Version to 3.9.8.
+
+ -- Daniel Cunha <daniel.ccunha@gmail.com>  Sat, 18 Mar 2017 18:57:53 -0300
+
+clamfs (1.0.1-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix "ftbfs with gcc-4.5": add patch from Ubuntu / Colin Watson:
+    - Fix ExpireLRUCache constructor naming.
+    Closes: #564971
+    LP: #749048
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 26 Sep 2011 18:53:10 +0200
+
+clamfs (1.0.1-1) unstable; urgency=low
+
+  * New upstream version (Closes: #560472)
+  * debian/control:
+    - add dependency on libboost-dev
+    - bumped Standards-Version to 3.8.3
+  * debian/copyright:
+    - replaced (C) with ©
+    - replaced /usr/share/common-licenses/GPL with ../GPL-2
+
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Wed, 30 Dec 2009 13:50:50 +0100
+
+clamfs (1.0.0-1) unstable; urgency=low
+
+  * New upstream version
+  * debian/control:
+    - removed dependency on libpoco5-dev
+    - s/An user-space/user-space/ in Description: field
+
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Sat, 21 Feb 2009 14:01:39 +0100
+
+clamfs (0.9.1-3) unstable; urgency=low
+
+  * debian/control:
+    - updated dependency to use libpoco5-dev
+    - updated standards version (no changes needed)
+    - moved hompage pseudo-header to real field
+    - bumped Standards-Version, no changes needed
+  * debian/rules: fixed using "-" or the option to ignore errors
+  * add debian/watch file
+
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Wed, 25 Jun 2008 22:39:09 +0200
+
+clamfs (0.9.1-2) unstable; urgency=low
+
+  * Add sample configuration file
+
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Sun, 29 Apr 2007 21:25:29 +0200
+
+clamfs (0.9.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #415253)
+
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Sat, 17 Mar 2007 16:31:08 +0100
