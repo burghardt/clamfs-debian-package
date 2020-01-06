@@ -1,3 +1,14 @@
+clamfs (1.2.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * debian/control:
+    - libfuse3-dev replaces libfuse-dev
+    - add pkg-config dependency
+  * debian/copyright:
+    - add fdpassing.m4 and src/fdpassing.h
+
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Mon, 06 Jan 2020 22:30:50 +0100
+
 clamfs (1.1.0-1) unstable; urgency=medium
 
   * New upstream version (closes: #529569, #925653).
