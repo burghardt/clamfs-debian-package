@@ -1,3 +1,13 @@
+clamfs (1.2.0-2) unstable; urgency=medium
+
+  * Add patches/Remove-_start-symbol-check-for-CXX-libraries.patch to fix
+    mips(64)el FTBFS in ./configure step due to missing _start() symbol.
+  * Removed debian/compat as replaced by debhelper-compat virtual package.
+  * Switched to debhelper command sequencer for debian/rules.
+  * Add upstream/metadata file.
+
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Fri, 10 Jan 2020 01:46:18 +0100
+
 clamfs (1.2.0-1) unstable; urgency=medium
 
   * New upstream version
