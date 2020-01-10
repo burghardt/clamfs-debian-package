@@ -1,0 +1,8 @@
+Bug-Database: https://github.com/burghardt/clamfs/issues
+Repository: git://github.com/burghardt/clamfs.git
+Repository-Browse: https://github.com/burghardt/clamfs
+Reference:
+  Authors: Krzysztof Burghardt
+  Name: ClamFS - User-space fs with on-access antivirus scanning
+  Year: 2020
+  URL: https://github.com/burghardt/clamfs/blob/master/README.md
