@@ -1,0 +1,26 @@
+Description: Remove _start symbol check for C++ libraries.
+ There is no portable way to check for C++ symbol with AC_CHECK_LIB().
+ Mangling C++ symbols is not portable. Hacks like using main() or _start()
+ are neither portable enough. Calling main() is forbidden in C++.
+ Symbol _start() is non-standard and does not exists in mips(64)el.
+Author: Krzysztof Burghardt <krzysztof@burghardt.pl>
+Origin: upstream
+Last-Update: 2020-01-09
+
+--- a/configure.ac
++++ b/configure.ac
+@@ -71,9 +71,11 @@ AC_CHECK_HEADER(Poco/SAX/ContentHandler.
+ AC_CHECK_HEADER(Poco/SAX/LexicalHandler.h,,AC_MSG_ERROR([Poco/SAX/LexicalHandler.h]))
+ AC_CHECK_HEADER(Poco/SAX/Attributes.h,,AC_MSG_ERROR([Poco/SAX/Attributes.h]))
+ AC_CHECK_HEADER(Poco/SAX/Locator.h,,AC_MSG_ERROR([Poco/SAX/Locator.h]))
+-AC_CHECK_LIB(PocoFoundation,_start,LIBS="$LIBS -lPocoFoundation",AC_MSG_ERROR([libPocoFoundation not found!]))
+-AC_CHECK_LIB(PocoNet,_start,LIBS="$LIBS -lPocoNet",AC_MSG_ERROR([libPocoNet not found!]))
+-AC_CHECK_LIB(PocoXML,_start,LIBS="$LIBS -lPocoXML",AC_MSG_ERROR([libPocoXML not found!]))
++# There is no portable way to check for C++ symbol with AC_CHECK_LIB().
++# Mangling C++ symbols is not portable. Hacks like using main() or _start()
++# are neither portable enough. Calling main() is forbidden in C++.
++# Symbol _start() is non-standard and does not exists in mips(64)el.
++LIBS="$LIBS -lPocoFoundation -lPocoNet -lPocoXML"
+ 
+ dnl Use option --enable-gcc-debug to enable GCC debug code.
+ AC_ARG_ENABLE(gcc-debug,
