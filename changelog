@@ -1,8 +1,16 @@
-clamfs (1.3.0-1) UNRELEASED; urgency=medium
+clamfs (1.3.0-1) unstable; urgency=medium
 
   * New upstream release
+  * Upstream signing key changed
+  * Removed patches/Remove-_start-symbol-check-for-CXX-libraries.patch
+  * debian/control:
+    - removed librlog-dev
+  * debian/copyright:
+    - add m4/ax_check_compile_flag.m4
+    - add m4/ax_add_fortify_source.m4
+  * debian/watch rewritten
 
- -- Ubuntu <krzysztof@burghardt.pl>  Sat, 23 Mar 2024 02:02:42 +0100
+ -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Sat, 23 Mar 2024 23:06:40 +0100
 
 clamfs (1.2.0-2) unstable; urgency=medium
 
