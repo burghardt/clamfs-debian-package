@@ -4,7 +4,7 @@ Upstream-Contact: Krzysztof Burghardt <krzysztof@burghardt.pl>
 Source: https://github.com/burghardt/clamfs
 
 Files: *
-Copyright: 2007-2019 Krzysztof Burghardt
+Copyright: 2007-2024 Krzysztof Burghardt
 License: GPL-2+
 
 Files: src/utils.hxx
@@ -13,21 +13,40 @@ Copyright: 2007-2019 Krzysztof Burghardt
 License: GPL-2+
 
 Files: src/clamfs.cxx
-Copyright: 2007-2019 Krzysztof Burghardt
+Copyright: 2007-2024 Krzysztof Burghardt
            2001-2006 Miklos Szeredi
 License: GPL-2+
 
-Files: fdpassing.m4 src/fdpassing.h
+Files: m4/fdpassing.m4 src/fdpassing.h
 Copyright: 2013-2019 Cisco Systems, Inc. and/or its affiliates
            2009-2013 Sourcefire, Inc.
 License: GPL-2
 
-Files: ax_boost_base.m4
-Copyright: 2008 Thomas Porschberg
+Files: m4/ax_boost_base.m4
+Copyright: 2009 Peter Adolphs
+           2008 Thomas Porschberg
 License: permissive
  Copying and distribution of this file, with or without modification, are
  permitted in any medium without royalty provided the copyright notice
  and this notice are preserved.
+
+Files: m4/ax_check_compile_flag.m4
+Copyright: 2011 Maarten Bosmans
+           2008 Guido U. Draheim
+License: permissive
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved.  This file is offered as-is, without any
+ warranty.
+
+Files: m4/ax_add_fortify_source.m4
+Copyright: 2017 David Seifert
+           2019, 2023 Reini Urban
+License: permissive
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved.  This file is offered as-is, without any
+ warranty.
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
