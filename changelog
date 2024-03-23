@@ -12,6 +12,13 @@ clamfs (1.3.0-1) unstable; urgency=medium
 
  -- Krzysztof Burghardt <krzysztof@burghardt.pl>  Sat, 23 Mar 2024 23:06:40 +0100
 
+clamfs (1.2.0-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Don't build with -Werror. (Closes: #1002180)
+
+ -- Adrian Bunk <bunk@debian.org>  Wed, 19 Jan 2022 18:35:36 +0200
+
 clamfs (1.2.0-2) unstable; urgency=medium
 
   * Add patches/Remove-_start-symbol-check-for-CXX-libraries.patch to fix

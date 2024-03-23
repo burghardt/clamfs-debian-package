@@ -1,0 +1,15 @@
+Description: Don't build with -Werror.
+Author: Adrian Bunk <bunk@debian.org>
+Bug-Debian: https://bugs.debian.org/1002180
+
+--- clamfs-1.2.0.orig/configure.ac
++++ clamfs-1.2.0/configure.ac
+@@ -37,7 +37,7 @@ AC_CHECK_FUNCS([fchdir fdatasync fork ft
+ AC_C_FDPASSING
+ 
+ # Set initial CPPFLAGS
+-CPPFLAGS="$CPPFLAGS -Wall -Werror -Wextra"
++CPPFLAGS="$CPPFLAGS -Wall -Wextra"
+ 
+ # Checks for boost
+ AX_BOOST_BASE(1.33)
