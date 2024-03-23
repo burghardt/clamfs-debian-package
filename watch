@@ -1,4 +1,7 @@
 version=4
-opts="pgpsigurlmangle=s/(.*)/$1.asc/" \
-    https://github.com/burghardt/clamfs/releases/latest \
-    (?:.*?/)?@PACKAGE@@ANY_VERSION@@ARCHIVE_EXT@ debian uupdate
+opts="\
+    compression=gz, \
+    pgpsigurlmangle=s/$/.asc/, \
+    downloadurlmangle=s#/tag/#/download/#;s#(clamfs?@ANY_VERSION@)$#$1/@PACKAGE@-$2.tar.gz#, \
+    filenamemangle=s#clamfs?@ANY_VERSION@#@PACKAGE@-$1.tar.gz#" \
+https://github.com/burghardt/@PACKAGE@/tags .*/releases/tag/clamfs?@ANY_VERSION@
