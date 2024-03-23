@@ -2,14 +2,14 @@ Description: Don't build with -Werror.
 Author: Adrian Bunk <bunk@debian.org>
 Bug-Debian: https://bugs.debian.org/1002180
 
---- clamfs-1.2.0.orig/configure.ac
-+++ clamfs-1.2.0/configure.ac
-@@ -37,7 +37,7 @@ AC_CHECK_FUNCS([fchdir fdatasync fork ft
+--- a/configure.ac
++++ b/configure.ac
+@@ -37,7 +37,7 @@
  AC_C_FDPASSING
  
- # Set initial CPPFLAGS
--CPPFLAGS="$CPPFLAGS -Wall -Werror -Wextra"
-+CPPFLAGS="$CPPFLAGS -Wall -Wextra"
- 
- # Checks for boost
- AX_BOOST_BASE(1.33)
+ # Set initial CPPFLAGS and LDFLAGS
+-CPPFLAGS="$CPPFLAGS -Wall -Werror -Wextra -Wdate-time"
++CPPFLAGS="$CPPFLAGS -Wall -Wextra -Wdate-time"
+ CPPFLAGS="$CPPFLAGS -Wformat -Wformat-security"
+ CPPFLAGS="$CPPFLAGS -Wcast-align -Wcast-qual -Wchar-subscripts"
+ CPPFLAGS="$CPPFLAGS -Wformat-nonliteral -Wpointer-arith -Wredundant-decls"
